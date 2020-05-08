@@ -1,0 +1,35 @@
+h1{
+    font-family: Helvetica;
+}
+
+p{
+    font-size: 1em;
+    font-family: Helvetica;
+}
+
+.introduction{
+    font-family: Helvetica;
+    font-size:1em;
+    padding-bottom: 5px;
+}
+
+.experience{
+    font-family: Helvetica;
+    font-size: 1em;
+    padding-bottom: 5px;
+}
+
+#exptable{
+    border: 1px solid black;
+    text-align: left;
+}
+
+#profilepicture{
+    width: 25%;
+}
+
+div>nav>ul>li{
+    font-weight: bold;
+    text-underline: blue;
+    align-items: start;
+}
