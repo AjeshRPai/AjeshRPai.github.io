@@ -1,23 +1,42 @@
+
+/*type level styling*/
+
 h1{
-    font-family: Helvetica;
+    font-family: 'Roboto', sans-serif;
 }
 
 p{
     font-size: 1em;
-    font-family: Helvetica;
+    font-family: 'Roboto', sans-serif,Helvetica;
 }
 
+td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+}
+
+div>nav>ul>li{
+    font-weight: bold;
+    text-underline: blue;
+    align-items: start;
+}
+
+
+/* class level stylin */
+
 .introduction{
-    font-family: Helvetica;
+    font-family: 'Roboto', sans-serif,Helvetica;
     font-size:1em;
     padding-bottom: 5px;
 }
 
 .experience{
-    font-family: Helvetica;
+    font-family: 'Roboto', sans-serif,Helvetica;
     font-size: 1em;
     padding-bottom: 5px;
 }
+
+/*id level styling*/
 
 #exptable{
     border: 1px solid black;
@@ -28,8 +47,13 @@ p{
     width: 25%;
 }
 
-div>nav>ul>li{
-    font-weight: bold;
-    text-underline: blue;
-    align-items: start;
+
+#name{
+    color:#008080;
+}
+
+#links{
+    font-family: 'Roboto', sans-serif,Helvetica;
+    font-size: 1em;
+    padding-bottom: 5px;
 }
