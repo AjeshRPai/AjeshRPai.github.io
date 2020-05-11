@@ -18,9 +18,7 @@ td, th {
 div>nav>ul>li{
     font-weight: bold;
     text-underline: blue;
-    align-items: start;
 }
-
 
 /* class level stylin */
 
@@ -28,12 +26,28 @@ div>nav>ul>li{
     font-family: 'Roboto', sans-serif,Helvetica;
     font-size:1em;
     padding-bottom: 5px;
+    width: 100%;
+    flex: 50%;
 }
 
 .experience{
     font-family: 'Roboto', sans-serif,Helvetica;
     font-size: 1em;
     padding-bottom: 5px;
+    width: 100%;
+    flex: 50%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.links{
+    font-family: 'Roboto', sans-serif,Helvetica;
+    font-size: 1em;
+    padding-bottom: 5px;
+    width: 100%;
 }
 
 /*id level styling*/
@@ -52,8 +66,18 @@ div>nav>ul>li{
     color:#008080;
 }
 
-#links{
-    font-family: 'Roboto', sans-serif,Helvetica;
-    font-size: 1em;
-    padding-bottom: 5px;
+
+
+
+div nav ul li a:link {
+    color: #0000ff;
+}
+div nav ul li a:visited {
+    color: #ff00ff;
+}
+div nav ul li a:hover {
+    color: #00ccff;
+}
+div nav ul li a:active {
+    color: #ff0000;
 }
