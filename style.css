@@ -5,6 +5,11 @@ h1{
     font-family: 'Roboto', sans-serif;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 p{
     font-size: 1em;
     font-family: 'Roboto', sans-serif,Helvetica;
@@ -17,16 +22,29 @@ td, th {
 
 div>nav>ul>li{
     font-weight: bold;
-    text-underline: blue;
+}
+
+div nav ul li a:link {
+    color: #0000ff;
+}
+div nav ul li a:visited {
+    color: #ff00ff;
+}
+div nav ul li a:hover {
+    color: #00ccff;
+}
+div nav ul li a:active {
+    color: #ff0000;
 }
 
 /* class level stylin */
 .introduction{
+    padding-left: 15px;
+    padding-top: 15px;
     font-family: 'Roboto', sans-serif,Helvetica;
     font-size:2rem;
-    padding: 5px;
+    margin: 0;
     color: whitesmoke;
-    width: 100%;
     height: 1080px;
     vertical-align: bottom;
     position: sticky;
@@ -41,10 +59,10 @@ div>nav>ul>li{
 
 
 .experience{
+    padding-left: 15px;
+    padding-top: 15px;
     font-family: 'Roboto', sans-serif,Helvetica;
     font-size: 1em;
-    padding-bottom: 5px;
-    width: 100%;
     flex: 50%;
 }
 
@@ -54,29 +72,44 @@ div>nav>ul>li{
 }
 
 .links{
+    padding-top: 15px;
+    margin-left: 15px;
     font-family: 'Roboto', sans-serif,Helvetica;
     font-size: 1em;
-    padding-bottom: 5px;
-    width: 100%;
+}
+
+
+.footer{
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-left:15px ;
+    margin-bottom: 15px;
+}
+
+.introduction.p.a:link {
+    color: whitesmoke;
+}
+
+.introduction.p.a:visited {
+    color: white;
+}
+.introduction.p.a:hover {
+    color: white;
+}
+.introduction.p.a:active {
+    color: white;
 }
 
 /*id level styling*/
 
+#links_site{
+    margin-top: 15px;
+    padding-left: 15px;
+}
+
 #exptable{
     border: 1px solid black;
     text-align: left;
+    margin-top: 15px;
 }
 
-
-div nav ul li a:link {
-    color: #0000ff;
-}
-div nav ul li a:visited {
-    color: #ff00ff;
-}
-div nav ul li a:hover {
-    color: #00ccff;
-}
-div nav ul li a:active {
-    color: #ff0000;
-}
